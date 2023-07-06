@@ -16,7 +16,7 @@ int check(int num, int i)
 		}
 		else
 		{
-			return (helperFunction(num, i + 1));
+			return (check(num, i + 1));
 		}
 	}
 	else
