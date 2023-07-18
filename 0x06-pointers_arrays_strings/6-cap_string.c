@@ -2,6 +2,7 @@
 /**
  * cap_string - turn all the character to UPPERCASE
  * @str: string input
+ *
  * Return: new format of string
  */
 char *cap_string(char *str)
