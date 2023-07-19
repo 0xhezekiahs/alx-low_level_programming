@@ -4,7 +4,7 @@
  * @argc: indext of arg array
  * @argv: array of arg input
  *
- * Return: error if number of arguments is wrong
+ * Return: 0 but error no if wrong input
  */
 int main(int argc, char *argv[])
 {
