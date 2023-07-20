@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef FUNCTION_POINTERS
 #define FUNCTION_POINTERS
 int int_index(int *array, int size, int (*cmp)(int));
