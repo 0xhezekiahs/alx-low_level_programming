@@ -2,7 +2,8 @@
 #include <stdarg.h>
 #include <stdlib.h>
 /**
- * print_numbers - display int numbers seperated by a comma and folloed by a new line.
+ * print_numbers - display int numbers seperated
+ * by a comma and folloed by a new line.
  * @separator: seperate numbers by a comma
  * @n:count of integers used as parameters
  *
