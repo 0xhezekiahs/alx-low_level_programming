@@ -1,1 +1,0 @@
-proper STRUCTUREin in C
