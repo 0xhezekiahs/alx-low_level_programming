@@ -11,7 +11,7 @@
 int main(int arg_count, char *arg_vector[])
 {
 	int rem = 0;
-	int change
+	int change;
 
 	if (arg_count != 2)
 	{
