@@ -16,7 +16,7 @@ int _len_O_string(char *string)
  * palCheck - confirm palindrome string
  * @index: index
  * @lenp: string len
- * @trs: string to check
+ * @str: string to check
  * Return: 1 if true, else o
 **/
 int palCheck(int index, int lenp, char *str)
