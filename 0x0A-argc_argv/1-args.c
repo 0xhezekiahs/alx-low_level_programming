@@ -9,7 +9,7 @@
 int main(int arg_count, char *arg_vector[])
 {
 	/* print */
-	printf("%s\n", arg_vector[0]);
-	(void)arg_count;
+	printf("%d\n", arg_count - 1);
+	(void)arg_vector;
 	return (0);
 }
