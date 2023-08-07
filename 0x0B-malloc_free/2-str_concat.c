@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 
 	for(slen_1 = 0; s1[slen_1] != '\0'; slen_1++)
 		;
-	for(slen_2 = 0; s2[len2] != '\0'; len2++)
+	for(slen_2 = 0; s2[slen_2] != '\0'; slen_2++)
 		;
 
 	catsize = slen_1 + slen_2;
