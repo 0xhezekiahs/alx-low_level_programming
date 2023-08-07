@@ -21,9 +21,9 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	for(slen_1 = 0; s1[slen_1] != '\0'; slen_1++)
+	for (slen_1 = 0; s1[slen_1] != '\0'; slen_1++)
 		;
-	for(slen_2 = 0; s2[slen_2] != '\0'; slen_2++)
+	for (slen_2 = 0; s2[slen_2] != '\0'; slen_2++)
 		;
 
 	catsize = slen_1 + slen_2;
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	if (cat == NULL)
 		return (NULL);
 
-	for(i = 0; i < slen_1; i++)
+	for (i = 0; i < slen_1; i++)
 	{
 		cat[i] = s1[i];
 	}
