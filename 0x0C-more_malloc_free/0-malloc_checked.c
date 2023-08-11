@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 /**
   * malloc_checked - confirm mem allocation by malloc
   * @b: mem size
