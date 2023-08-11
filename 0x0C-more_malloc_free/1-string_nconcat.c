@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strlen - compute string length of a string input
- * @string: input string
+ * _string_lenght - compute string length of a string input
+ * @str_input: input string
  * Return: strlen
  */
 int _string_lenght(char *str_input)
