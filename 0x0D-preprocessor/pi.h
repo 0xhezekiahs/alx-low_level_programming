@@ -1,3 +1,3 @@
-#ifndef __PI__ /* expands PI ti 22/7 */
+#ifndef PI
 #define PI 3.14159265359
 #endif

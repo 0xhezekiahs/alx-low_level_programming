@@ -1,3 +1,5 @@
-#ifndef SIZE /* conditional */
-#define SIZE 1024 /* define */
+#ifndef SIZE
+
+#define SIZE 1024
+
 #endif
