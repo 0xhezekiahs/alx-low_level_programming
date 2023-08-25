@@ -8,8 +8,8 @@ fmt:	db "%s\n", 0
 
 main:
 	push rbp
-	mov rdi, format
-	mov rsi, hello
+	mov rdi, fmt
+	mov rsi, msg
 	xor rax, rax ; Clear RAX register (for compatibility)
 	call printf
 	pop rbp
