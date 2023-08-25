@@ -1,19 +1,16 @@
-section .data
+SECTION .data
 msg:	db "Hello, Holberton", 0
 fmt:	db "%s", 10, 0
 
-	section .text
+	SECTION .text
 	global main
 	extern printf
 
-main:
-	push rbp
-	mov rdi, fmt
-	mov rsi, msg
-	xor rax, rax ; Clear RAX register (for compatibility)
+maiN:
+	mov edi, fmt	; handle format
+	mov esi, msg	; handle print
+	mov eax, 0	; syscall exit
 	call printf
-	pop rbp
 
-	mov rax, 60     ; syscall: exit
-	xor rdi, rdi    ; status: 0
-	syscall
+	mov eax, 0
+	ret	; return value
